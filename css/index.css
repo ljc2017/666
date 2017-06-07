@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #f9f7f8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 42px;
+  background: #F2F2F2;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  position: relative;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  padding: 0 20px 0 10px;
+  font-size: 16px;
+  color: #1a1a1a;
+  background: url(../img/site_bg_icon.png) no-repeat right center;
+  background-size: auto 42px;
+}
+
+.header a i {
+  background: url(../img/img.png) 0 -64px no-repeat;
+  height: 22px;
+  position: relative;
+  top: 4px;
+  width: 22px;
+  display: inline-block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 5px;
+}
+
+.banner {
+  width: 100%;
+  height: 4.5365rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-list {
+  background: #fff;
+  width: 100%;
+  height: 180px;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.nav-list li {
+  list-style: none;
+  width: 33.333333%;
+  height: 72px;
+  margin: 8px 0;
+}
+
+.nav-list li img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 6px auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.nav-list li span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.classify {
+  width: 100%;
+  margin: 8px 0;
+  background: #fff;
+}
+
+.classify h3 {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 2px solid #ef6565;
+  font-weight: normal;
+}
+
+.classify h3 i {
+  width: 18px;
+  height: 18px;
+  margin: 10px 8px;
+  display: block;
+  float: left;
+  background: url(../img/fl.png) no-repeat;
+  position: relative;
+  top: .32rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.classify h3 span {
+  font-size: 16px;
+  color: #ef6565;
+}
+
+.classify .classify-ul {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+}
+
+.classify .classify-ul li {
+  list-style: none;
+  float: left;
+  width: 23%;
+  font-size: 14px;
+  text-align: center;
+  color: #3665c3;
+}
+
+.classify .classify-ul li:first-child {
+  color: #43A7E4;
+}
+
+.classify .classify-ul i {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  background: url(../img/oc.png) no-repeat center;
+}
+
+.classify .classify-div {
+  display: none;
+  width: 100%;
+  height: 182.4px;
+  background: #FFFEF9;
+}
+
+.classify .classify-div span {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 20px;
+  margin: 12.8px 0;
+  font-size: 14px;
+  text-align: center;
+  color: #3665c3;
+}
+
+.classify-ul i.on {
+  background: url(../img/oc.png) no-repeat center;
+  Transform-origin: center center;
+  transform: rotate(180deg);
+}
